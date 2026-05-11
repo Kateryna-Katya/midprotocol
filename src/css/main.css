@@ -1,0 +1,61 @@
+.home-section{
+    background-image: url("/img/home/mob.png");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    height: 812px;
+}
+.home-title{
+    margin-top: 70px;
+    font-family: "Aldrich", sans-serif;
+        font-weight: 400;
+        font-size: 56px;
+        line-height: 1.2;
+        text-align: center;
+        background: linear-gradient(90deg, #00f1ff 0%, #5b3bcf 100%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        margin-bottom: 16px;
+}
+.home-subtitle{
+margin-bottom: 32px;
+}
+.home-link{
+    margin-top: 197px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #0ff;
+        padding: 16px 24px;
+        width: 256px;
+        height: 62px;
+background: #0a0e0e;
+display: flex;
+align-items: center;
+justify-content: center;
+font-family: "Agdasima", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.5;
+    color: #0ff;
+    transition: transform 0.3s ease-in-out;
+}
+.home-link:hover{
+  transform: scale(1.02);
+}
+@media only screen and (min-width: 1440px) {
+.home-section {
+        background-image: url("/img/home/desk.png");
+height: 633px;
+}
+.home-title {
+font-size: 72px;
+        margin-bottom: 16px;
+}
+ .home-subtitle {
+margin-bottom: 24px;
+}
+.home-link{
+    margin-top: 63px;
+}
+}
