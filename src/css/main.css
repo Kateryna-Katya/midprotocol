@@ -165,3 +165,31 @@ width: 352px;
     font-size: 20px;
  }
 }
+/* ABOUT */
+.about-desk{
+    display: none;
+}
+.about-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 35px;
+}
+@media only screen and (min-width: 1440px) {
+.about-desk {
+        display: block;
+        position: absolute;
+top: 0;
+left: 160px;
+    }
+
+    .about-container {
+flex-direction: row;
+justify-content: end;
+        gap: 63px;
+        position: relative;
+    }
+.about-wrapper{
+    width: 544px;
+}
+}
